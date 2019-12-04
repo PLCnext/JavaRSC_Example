@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="451.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.phoenixcontact.rsc.demo.View.Login">
+   <children>
+      <VBox layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <TextField fx:id="ipField" alignment="CENTER" promptText="IP" />
+            <TextField fx:id="portField" alignment="CENTER" promptText="Port (41100)" />
+            <TextField fx:id="userField" alignment="CENTER" promptText="Benutzername" />
+            <PasswordField fx:id="passwordField" alignment="CENTER" promptText="Passwort" />
+            <Button fx:id="loginButton" mnemonicParsing="false" onMouseClicked="#loginClicked" text="Login" />
+         </children>
+      </VBox>
+   </children>
+</Pane>

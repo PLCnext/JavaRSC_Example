@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="430.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.phoenixcontact.rsc.demo.View.Tabs.MainTab">
+        <children>
+            <!--<Button fx:id="refreshButton" layoutX="379.0" layoutY="41.0" mnemonicParsing="false" onMouseClicked="#refresh" text="Refresh" />-->
+            <Button fx:id="startButton" layoutX="133.0" layoutY="105.0" mnemonicParsing="false" onMouseClicked="#start" text="Start" />
+            <Button fx:id="stopButton" layoutX="219.0" layoutY="105.0" mnemonicParsing="false" onMouseClicked="#stop" text="Stop" />
+            <Button fx:id="restartButton" layoutX="314.0" layoutY="105.0" mnemonicParsing="false" onMouseClicked="#restart" text="Restart" />
+            <Label layoutX="154.0" layoutY="43.0" prefHeight="21.0" prefWidth="64.0" text="PLC State:" />
+            <Label fx:id="stateLabel" layoutX="219.0" layoutY="43.0" prefHeight="21.0" prefWidth="160.0" />
+            <Button layoutX="129.0" layoutY="172.0" mnemonicParsing="false" onMouseClicked="#startFWUpdate" text="Start firmware updaate" />
+            <Button layoutX="42.0" layoutY="41.0" mnemonicParsing="false" onMouseClicked="#backToLogin" text="back" />
+        </children>
+</AnchorPane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="450.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.phoenixcontact.rsc.demo.View.MainViewController">
+   <children>
+      <TabPane fx:id="tabPane" prefHeight="436.0" prefWidth="682.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+            <Tab fx:id="logTab" text="Log">
+               <content>
+                  <ListView fx:id="logListView" prefHeight="200.0" prefWidth="200.0" />
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <AnchorPane fx:id="messagePane" prefHeight="22.0" prefWidth="689.0">
+         <children>
+            <Label fx:id="messageLabel" layoutX="11.0" layoutY="2.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="libs/bcpkix-jdk15on-1.61.jar"/>
+	<classpathentry kind="lib" path="libs/bcprov-jdk15on-1.61.jar"/>
+	<classpathentry kind="lib" path="libs/bctls-jdk15on-1.61.jar"/>
+	<classpathentry kind="lib" path="libs/com.phoenixcontact.commonremoting-2.0.151.0.jar" sourcepath="libs/com.phoenixcontact.commonremoting-2.0.151.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/EclipseJavaRscDemo/libs/com.phoenixcontact.commonremoting-2.0.151.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/com.phoenixcontact.commonremoting.implementation-2.0.151.0.jar" sourcepath="libs/com.phoenixcontact.commonremoting.implementation-2.0.151.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/EclipseJavaRscDemo/libs/com.phoenixcontact.commonremoting.implementation-2.0.151.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/com.phoenixcontact.rsc.common-2.0.151.0.jar" sourcepath="libs/com.phoenixcontact.rsc.common-2.0.151.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/EclipseJavaRscDemo/libs/com.phoenixcontact.rsc.common-2.0.151.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/com.phoenixcontact.rsc.services-2.0.151.0.jar" sourcepath="libs/com.phoenixcontact.rsc.services-2.0.151.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/EclipseJavaRscDemo/libs/com.phoenixcontact.rsc.services-2.0.151.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/slf4j-api-1.7.26.jar"/>
+	<classpathentry kind="lib" path="libs/slf4j-simple-1.7.26.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/com.phoenixcontact.rsc.services-2.0.151.0-javadoc"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/com.phoenixcontact.rsc.common-2.0.151.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/com.phoenixcontact.commonremoting.implementation-2.0.151.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/com.phoenixcontact.commonremoting-2.0.151.0"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
