@@ -1,10 +1,19 @@
-# PLCnext Technology - Java RSC Demo
+# PLCnext Technology - Java RSC Demo - DEPRICATED
 
 [![Feature Requests](https://img.shields.io/github/issues/PLCnext/JavaRSC_Example/feature-request.svg)](https://github.com/PLCnext/JavaRSC_Example/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request+sort%3Areactions-%2B1-desc)
 [![Bugs](https://img.shields.io/github/issues/PLCnext/JavaRSC_Example/bug.svg)](https://github.com/PLCnext/JavaRSC_Example/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3Abug)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Web](https://img.shields.io/badge/PLCnext-Website-blue.svg)](https://www.phoenixcontact.com/plcnext)
 [![Community](https://img.shields.io/badge/PLCnext-Community-blue.svg)](https://www.plcnext-community.net)
+
+> This project is depricated and will not be maintained anymore. Please use our gRPC services (https://www.plcnext.help/te/Service_Components/gRPC_Introduction.htm) to access PLCnext RSC services via Java. \
+> There are a few Makers Blog posts with examples of how to use these gRPC services: \
+> \
+> •	[Command-line gRPC client](https://www.plcnext-community.net/makersblog/remote-grpc-using-grpcurl/) \
+> •	[C# gRPC client](https://www.plcnext-community.net/makersblog/how-to-create-a-client-for-the-plcnext-control-grpc-server-in-c/) \
+> •	[python gRPC client](https://www.plcnext-community.net/makersblog/grpc-python-read-and-write-process-data/) \
+\
+> It is possible to write a gRPC client in Java, and there are examples of this general concept on the gRPC website: https://grpc.io/docs/languages/java/basics/
 
 ## Introduction
 
